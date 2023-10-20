@@ -1,0 +1,49 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f8ecd7; /* Pastel color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* 100% of the viewport height */
+}
+
+header {
+    background-color: #ffcc99; /* Light orange */
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Make the header full width */
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure the header is above other content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#content {
+    padding: 120px 20px 20px; /* Adjust the padding as needed */
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
