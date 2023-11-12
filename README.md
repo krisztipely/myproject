@@ -28,4 +28,4 @@ Open the bunny.html file in your web browser to experience Bunny Paradise.
 Navigate through the menu items to explore different sections and enjoy the bunny-themed content.
 
 ## License
-MIT 2023, Krisztina-Ronkainen Lakner
+[MIT](https://github.com/krisztipely/myproject/blob/master/LICENSE) 2023, Krisztina-Ronkainen Lakner
